@@ -1,5 +1,7 @@
 # LaTeX Previewer
 
+**This is a fork of [LaTeX Previewer](https://marketplace.visualstudio.com/items?itemName=mjpvs.latex-previewer), resolving the issue of whitespaces not allowed in your latex file path, and thus only working on windows because the solution is adding double quotes to the filepath.**
+
 LaTeX Previewer is a VS Code extension that generates a typeset document from your LaTeX source and renders it directly to the canvas of a VS Code webview.
 
 ![image](./media/lp.gif)

@@ -248,7 +248,8 @@ export class DocumentPanel {
 				  });
 			}			
 			const exec = util.promisify(require('child_process').exec);
-			const cmd = 'dvilualatex --halt-on-error --interaction=nonstopmode --synctex=-1 ' + this.editor.document.fileName;
+			const fileName = this.editor.document.fileName.replace(/\\/g, '/');
+            const cmd = 'dvilualatex --halt-on-error --interaction=nonstopmode --synctex=-1 "' + fileName + '"';
 			this._outputChannel.appendLine(cmd);			
 			const { stdout, stderr } = await exec(cmd, { cwd: docPath });
 			if (this.debugMode) {
