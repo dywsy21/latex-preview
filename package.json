@@ -19,14 +19,14 @@
   "publisher": "mjpvs",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/matjp/latex-preview.git"
+    "url": "https://github.com/dywsy21/latex-preview.git"
   },
   "bugs": {
-    "url": "https://github.com/matjp/latex-preview/issues"
+    "url": "https://github.com/dywsy21/latex-preview/issues"
   },
   "sponsor": {
-    "url": "https://github.com/sponsors/matjp"
-  },
+
+},
   "main": "./out/main.js",
   "activationEvents": [],
   "contributes": {
