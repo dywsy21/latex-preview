@@ -1,12 +1,12 @@
 {
-  "name": "latex-previewer",
-  "displayName": "LaTeX Previewer",
+  "name": "latex-previewer-minor-fixes",
+  "displayName": "LaTeX Previewer --- Support File Paths with Whitespaces",
   "description": "Preview a typeset LaTeX document in VS Code",
   "icon": "media/lp.png",
   "version": "1.0.0",
   "aiKey": "",
   "engines": {
-    "vscode": "^1.75.0"
+    "vscode": "^1.96.0"
   },
   "categories": [
     "Visualization"
@@ -16,7 +16,7 @@
     "preview",
     "VS Code"
   ],
-  "publisher": "mjpvs",
+  "publisher": "dywsy21",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/dywsy21/latex-preview.git"
@@ -25,8 +25,8 @@
     "url": "https://github.com/dywsy21/latex-preview/issues"
   },
   "sponsor": {
-
-},
+    "url": "https://github.com/sponsors/matjp"
+  },
   "main": "./out/main.js",
   "activationEvents": [],
   "contributes": {
